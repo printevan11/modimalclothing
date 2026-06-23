@@ -101,7 +101,7 @@ export default function App({ wishlist = [], setWishlist = () => {}, triggerToas
       <header className="relative w-full aspect-[16/10] md:aspect-[16/7.5] min-h-[460px] max-h-[850px] overflow-hidden">
         {/* Carousel Images */}
         {[
-          { src: "image_ba9a23.jpg", fallback: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1920&q=80" },
+          { src: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1920&q=80", fallback: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1920&q=80" },
           { src: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=1920&q=80", fallback: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=1920&q=80" },
           { src: "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1920&q=80", fallback: "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1920&q=80" }
         ].map((img, idx) => (
