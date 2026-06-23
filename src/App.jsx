@@ -12,7 +12,6 @@ import Materials from './pages/Materials'
 import Modiweek from './pages/Modiweek'
 import Login from './Forms/Login'
 import SignUp from './Forms/SignUp'
-import Account from './pages/Account'
 import Search from './pages/Search'
 import Shopping from './Components/Shopping'
 import Wishlist from './pages/Wishlist'
@@ -375,16 +374,6 @@ export default function App() {
               </div>
             )}
             <SignUp />
-          </>
-        } />
-        <Route path="/account" element={
-          <>
-            {toastMessage && (
-              <div className="fixed bottom-6 right-6 z-50 bg-[#5D6E56] text-white text-xs font-bold uppercase tracking-widest px-6 py-3.5 shadow-2xl rounded-sm transition-all duration-300">
-                {toastMessage}
-              </div>
-            )}
-            <Account />
           </>
         } />
         <Route path="/search" element={
