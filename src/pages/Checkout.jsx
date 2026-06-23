@@ -182,7 +182,7 @@ export default function Checkout({ cart = [], setCart = () => {}, triggerToast =
             {/* Contact Information */}
             <div>
               <h2 className="text-sm font-bold tracking-wide mb-4">Contact Information</h2>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-xs text-neutral-500 mb-1">First Name</label>
                   <input
@@ -239,7 +239,7 @@ export default function Checkout({ cart = [], setCart = () => {}, triggerToast =
                   placeholder="Street Address"
                 />
               </div>
-              <div className="grid grid-cols-2 gap-4 mt-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
                 <div>
                   <label className="block text-xs text-neutral-500 mb-1">City</label>
                   <input
@@ -346,7 +346,7 @@ export default function Checkout({ cart = [], setCart = () => {}, triggerToast =
                       placeholder="1234 5678 9012 3456"
                     />
                   </div>
-                  <div className="grid grid-cols-2 gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                       <label className="block text-xs text-neutral-500 mb-1">Expiry Date</label>
                       <input

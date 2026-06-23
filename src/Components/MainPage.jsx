@@ -314,7 +314,7 @@ export default function App({ wishlist = [], setWishlist = () => {}, triggerToas
         </h2>
 
         {/* 5-Column Horizontal Weekday Outfit Slider Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6">
           {modiweekDays.map((item) => (
             <div key={item.id} className="group flex flex-col space-y-3">
               <div className="relative aspect-[3/4.5] bg-neutral-100 overflow-hidden rounded-sm shadow-sm">
@@ -411,7 +411,7 @@ export default function App({ wishlist = [], setWishlist = () => {}, triggerToas
           </div>
 
           {/* Right 2x2 Small Grid */}
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             
             {/* Small Post 1 */}
             <div className="relative aspect-square overflow-hidden rounded-sm shadow-sm bg-neutral-100 group">

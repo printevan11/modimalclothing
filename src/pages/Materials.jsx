@@ -71,7 +71,7 @@ const App = () => {
         </div>
 
         {/* Sustainability Images */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-16">
           {[
             'https://images.unsplash.com/photo-1441984904996-e0b6bbc8abf7?w=600&q=80',
             'https://images.unsplash.com/photo-1558171813-4c088753af8f?w=600&q=80',

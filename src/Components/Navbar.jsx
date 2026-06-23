@@ -326,7 +326,7 @@ export default function Navbar({
               </div>
             </div>
           )}
-          <div className="mt-6 grid grid-cols-2 gap-4">
+          <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
             <button onClick={() => { setActiveCategory('Tees'); setOpenMenu(null); setSearchQuery(''); navigate('/search'); }} className="text-center p-4 bg-neutral-50 cursor-pointer group">
               <img src="https://images.unsplash.com/photo-1509319117193-57bab727e09d?auto=format&fit=crop&w=200&q=80" alt="Tees" className="w-full aspect-square object-cover group-hover:scale-105 transition-transform" />
               <span className="text-xs font-medium mt-2 block">Tees</span>

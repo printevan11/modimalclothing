@@ -78,7 +78,7 @@ const App = () => {
         {}
         <section className="mb-20">
           <h3 className="text-xl font-bold mb-8 text-center md:text-left">People Beyond Us</h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
             {[
               'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=400',
               'https://images.unsplash.com/photo-1594912953257-22736e6503c7?auto=format&fit=crop&q=80&w=400',
@@ -104,7 +104,7 @@ const App = () => {
         {/* Sustainable Process Images */}
         <section className="mb-20">
           <h3 className="text-xl font-bold mb-8 text-center md:text-left">Our Sustainable Process</h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
             {[
               'https://images.unsplash.com/photo-1441984904996-e0b6bbc8abf7?w=600&q=80',
               'https://images.unsplash.com/photo-1441986305447-284f3d8a8be8?w=600&q=80',

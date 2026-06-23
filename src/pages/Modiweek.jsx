@@ -171,7 +171,7 @@ export default function Modiweek({
             {/* You May Also Like */}
             <div className="col-span-1 md:col-span-2 mt-4 pt-6 border-t border-neutral-100">
               <h4 className="text-sm font-bold tracking-wide mb-4">You May Also Like</h4>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
                 {getRelatedProducts(selectedProduct.id).map((prod) => (
                   <div
                     key={prod.id}
